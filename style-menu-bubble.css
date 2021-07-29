@@ -19,7 +19,7 @@
   transition: all 0.3s ease-in-out;
 }
 #active:checked ~ .wrapper{
-  clip-path: circle(75%);
+  clip-path: circle(15%);
 }
 .menu-btn{
   position: absolute;
@@ -60,10 +60,11 @@
 }
 
 .wrapper ul li h1 {
-  font-size: 50px;
-  text-transform: uppercase;
-  font-weight: 100;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 100;
 }
+
 .wrapper ul li a{
   color: none;
   text-decoration: none;
